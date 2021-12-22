@@ -1,5 +1,5 @@
 // URP-Unlit-Billboard Shader by @gam0022 (MIT Licence)
-// https://gam0022.net/blog/2021/12/23/unity-y-axis-billboard-shader/
+// https://gam0022.net//blog/2021/12/23/unity-urp-billboard-shader/
 Shader "Universal Render Pipeline/Unlit-Billboard"
 {
     Properties
