@@ -1,4 +1,4 @@
-# Unity Shader Experiments URP
+# Unity URP Shader
 
 - Unity 2021.2.7f1
 - URP 12.1.2
