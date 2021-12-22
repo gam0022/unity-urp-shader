@@ -11,10 +11,7 @@ Shader "Universal Render Pipeline/Unlit-Billboard"
 
     SubShader
     {
-        Tags
-        { "RenderType" = "Opaque"
-            "RenderPipeline" = "UniversalPipeline" "IgnoreProjector" = "True" "Queue" = "Geometry"
-        }
+        Tags { "RenderPipeline" = "UniversalPipeline" "RenderType" = "TransparentCutout" "Queue" = "AlphaTest" "IgnoreProjector" = "True" }
 
         Pass
         {
@@ -51,6 +48,7 @@ Shader "Universal Render Pipeline/Unlit-Billboard"
             {
                 Varyings OUT;
 
+                // 回転行列を生成してビルボード処理をします
                 float3 yup = float3(0.0, 1.0, 0.0);
                 float3 up = mul((float3x3)unity_ObjectToWorld, yup);
 
