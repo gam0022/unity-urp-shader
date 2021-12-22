@@ -11,3 +11,9 @@
 - [解説記事](https://gam0022.net/blog/2021/12/23/unity-y-axis-billboard-shader/)
 
 ![Universal Render Pipeline/Unlit-Billboard](Images/Unity-URP-Billboard-trim.gif)
+
+## External Assets
+
+- テクスチャ素材
+    - [Tree PNG Clipart Background](http://www.pngall.com/tree-png/download/23754)
+    - [Dirt/Ground Texture [Tileable | 2048x2048]](https://www.deviantart.com/fabooguy/art/Dirt-Ground-Texture-Tileable-2048x2048-441212191)
