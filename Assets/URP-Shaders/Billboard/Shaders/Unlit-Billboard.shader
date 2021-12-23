@@ -54,8 +54,8 @@ Shader "Universal Render Pipeline/Unlit-Billboard"
 
                 float3 worldPos = unity_ObjectToWorld._m03_m13_m23;
                 float3 toCamera = _WorldSpaceCameraPos - worldPos;
-                float3 right = normalize(cross(toCamera, up));
-                float3 forward = normalize(cross(up, right));
+                float3 right = normalize(cross(toCamera, up)) * length(unity_ObjectToWorld._m00_m10_m20);
+                float3 forward = normalize(cross(up, right)) * length(unity_ObjectToWorld._m02_m12_m22);
 
                 float4x4 mat = {
                     1, 0, 0, 0,
